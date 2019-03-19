@@ -1,0 +1,52 @@
+INSTALACION DE NODE.JS
+
+VERIFICACION DE LA INSTALACION
+
+---Imagen 2.1.png, ubicado en el paso 4.1 "CONSOLA CON NODE"
+---Imagen 2.1.png, ubicado en el paso 4.2 - 4.2.4 "RESULTADOS EN CONSOLA"
+---Imagen 2.3.png, ubicado en el paso 5.2 "RESULTADO EN CONSOLA"
+
+---Paso 5.5 Conclusiones: Podemos concluir de que en consola nos va a botar el texto Hola mundo!, solo si entramos a la pagina web luego de poner node hola.js en la ventana de comandos correspondiente.
+
+---Imagen 2.4.png, ubicado en el paso 5.7 "CONEXCION ESTABLECIDA ENTRA NODE Y HOLA.JS"
+
+---Paso 5.8 Conclusiones: Podemos concluir de que ahora en consola nos va a botar la frase Conexion entrante ya que le indicamos eso y nos va a botar en la pagina web el Hola mundo!, como respuesta de final.
+
+LEER ARCHIVO DE SERVIDOR
+
+---Imagen 3.1.png, ubicado en el paso 6.1 "RESULTADO DE NODE WEB.JS"
+
+---Paso 6.3 Conclusiones: Podemos concluir de que en la pagina web nos va a aparecer el texto que hemos introducido en el index ya que en el archivo web.js lo hemos llamado y lo esta botando como respuesta.end.
+
+---Imagen 3.2.png, ubicado en el paso 6.4 "MODIFICACION DEL CODIGO EN WEB.JS"
+
+---Paso 6.5 Diferencia: fs.readFile toma una devolución de llamada, si simplemente se reemplaza con fs.readFileSync, debe tener en cuenta que no requiere una devolución de llamada, por lo que nunca se llamará a su devolución de llamada que llama a response.send y, por lo tanto, la respuesta nunca terminará y se agotará el tiempo de espera.
+
+USO DE LIBRERIA HTTP
+
+---Imagen 4.1.png, ubicado en el paso 7.3 "PROBLEMA EN CONSOLA"
+
+---Paso 7.3 Correccion: Vamos a ver que en parametros donde va a almacenar pametros de la linea 4 va a tener un var, el cual va a ser el originario del problema; para solucionarlo debemos quitarlo.
+
+---Imagen 4.2.png, ubicado en el paso 7.4 "RESULTADO DE LA CORRECCION"
+
+---Paso 7.5 Valores: 
+arreglo_parametros: Va a recibir los valores de la url despues del signo ? "nombre=batman".
+parametros: Va a recibir los valores despues del signo = desde posicion 0"=batman".
+valores: Va a recibir los valores desde posicion 1 "batman.".
+
+---Paso 7.6 Explicacion: Se ha realizaco la obtencion de los valores del url del localhost, se puede realizar diferentes llamados ya que con el valor ya sea de una introduccion de una pagina anterior y que este valor se guarde en el url, lo puede tomar en diferentes paginas llamandolo como se hizo en el laboratorio.
+
+CREACION DE MODULO BASICO 
+
+---Paso 8.4 Optimizar: Se pede optimizar mejor en importar, con el metodo utilizado en parser.vars ya que podemos llamar a la url y ir quitandole la parte de nombre y el = para que solo nos quede el valor que nos importa.
+
+---Imagen 5.1.png, ubicado en el paso 8.8 "RESULTADO DE LA IMPORTACION CON IDENTIDAD Y PODER"
+
+CONCLUSIONES
+
+-Con node vamos a poder realizar operaciones matematicas por consola de manera automatica, asi como se puede almacear variables y dar operaciones con estas y mostrar en consola.
+-Se va a poder mostrar un texto como "hola" mediante una funcion que nos boten en consola el "hola" siempre teniendo en cuenta el puerto en donde se va a correr; asi como podemos ver un texto como "hola mundo" en la pag. web en el puerto que se designo y a la vez en la consola para verificar que estos corren al mismo tiempo.
+-Para llamar el texto de un url, vamos a necesitar de 3 archivos; los cuales el primero va a ser el html donde indicaremos la ubicacion en la pag. web donde se va a colocar el texto. Segundo vamos a necesitar un js con la funcion donde vaya a sacar el valor que toma el url y aca puede mostrar ya en la pag web del puerto localhost o tambien puedes exportarlo, para esto vamos a necesitar un arhivo .js mas para que importe este contenido de valores y pueda mostrarlo.
+-Al correr el archivo importar, nos va a mandar a guardar el archivo, y un punto resaltante es que al inicio del nombre por defecto se le coloca un subguion y al final un .txt mientras tiene en medio el nombre de la url.
+-Vamos a ver que podemos obtener valores de module.export y tomarlos importados para poder ubicarlos en la vista html con el mismo valor que tiene como este ejemplo de reemplazar {identidad} y dato [identidad].

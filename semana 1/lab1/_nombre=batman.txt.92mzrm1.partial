@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Servidor de Prueba</title>
+	</head>
+	<body>
+		<span>Hola batman!</span>
+	</body>
+</html>

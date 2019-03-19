@@ -1,0 +1,14 @@
+{
+  "name": "calvoguzman",
+  "version": "0.0.1",
+  "description": "Lab02",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victorcalvo",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}

@@ -1,0 +1,59 @@
+LABORATORIO 02
+
+IDENTIFICACION DE NPM
+
+---Imagen 1.1.png del paso 2.1 que es "ARGUMENTOS PRINCIPALES DE NPM Y LA VERSION"
+
+CREACION DE PACKAGE.JSON
+
+---Imagen 2.1.png del paso 3.1-3.3 que es "INICIO DE CREACION DEL PROYECTO"
+---Imagen 2.2.png del paso 3.4 que es "DATOS DEL PROYECTO"
+
+INSTALACION DE PAQUETES MEDIANTE NPM
+
+---Paso 4.2 Cambio: Se ah visto que se va a implementar nuevos archivos a nuestro proyecto en la carpetar underscore.
+
+---Imagen 3.1.png del paso 4.2 que es "CAMBIOS EN LA CARPETA PROYECTOS-UNDERSCORE"
+---Imagen 3.2.png del paso 4.5 que es "VERIFICACION DE PACKAGE.JSON"
+---Imagen 3.3.png del paso 4.6 que es "RESULTADO DEL ARCHIVO INDEX"
+---Imagen 3.4.png del paso 4.9 que es "RESULTADO DEL SCRIPT"
+
+---Paso 4.12 Explicacion: Nos va a dar como resultado el nombre de todos los SSE que se encuentran en la coleccion de empleados, tambien nos va a indicar su nombre y su id.
+
+CREACION DE UN PAQUETE EN NODE.JS
+
+---Imagen 3.5.png del paso 5.5 que es "RESULTADO DEL IDIOMA ES Y EN"
+
+PUBLICACION EN NPM
+
+---Imagen 3.6.png del paso 6.6 que es "RESULTADO DE PUBLISH"
+---Imagen 3.7.png del paso 6.8 que es "ERROR QUE NO EXISTE"
+
+ENTENDIMIENTO DE EJECUCION DE FUNCIONES EN JAVASCRIPT
+
+---Paso 7.1 Descripcion: Vamos a tener una variable node que va a almacenar los elementos obtenidos del nombre de la etiqueta button. Luego en el for nos va a mandar en consola numeros de tantas veces precionemos pero solo hasta que sea el menor el numero que la cantidad de valores de la etiqueta.
+
+---Paso 7.3 Descripcion: En la consola va a imprimir 4 numeros [1,2,3,4]; pero con intervalos de tiempo como podemos ver que el numero 1 y el 4 va a salir mas rapido porque no tiene nigun impedimento o settimeout pero vemos al 2 y 3 que tienen timeour y intervalos de tiempo como por ejemplo el 2 que tiene 1 segundo de impedimento y el 3 no pero debe acabar el 1 y 4 primero para que pueda entrar.
+
+---Paso 7.5 Descripcion: Podemos utilizar esta porcion de codigo cuando queremos encontrar algun objeto nulo y luego si es correcto todo va a buscar el atributo obtenerNombre de la primera evaluacion que es persona.
+
+---Paso 7.10 Descripcion: Podemos ver que falta un console.log para ver el resultado, asi como nos va a dar de resultado la edad que es 29 porque es lo que deseamos obtener de sus 3 valores que se le pueden atribuir a la variable Programador.
+
+
+---Imagen 3.8.png del paso 7.10 que es "RESULTADO"
+
+RESOLUCION DE PROBLEMAS
+
+---Imagen 4.1.png del paso 8.2 que es "RESOLUCION DEL PROBLEMA CON OPTIMIZACION"
+
+CONCLUSIONES
+
+-Al momento de ver valores de un array, los vamos a ver de manera que tengan un salto de linea a menos que tengamos una funcion o un for que mire posicion por posicion e imprima los valores seguidos o que la respuesta sea un valor.
+-Las solicitudes pueden ser llamadas por medio de una variable, la cual indicara los puntos que se desean ver o tambien se le puede colocar al mismo momento en que llamamos la respuesta a consola.
+-En el ejemplo del cambio de idioma, vamos a darnos cuenta que podemos ver el resultado de diferentes maneras como lo declaramos en la variable objetivos, y si le cambiamos el "es" por "en", las respuestas van a ser diferentes a las ya puestas.
+-Con las publicacion npm de un proyecto ,al guardarla con un requerido nombre podemos exportarla hacia otra ubicacion siempre y cuando pongamos el codigo npm install (nombre del proyecto anterior.).
+-Las declaraciones por consola siempre van a tener un orden ya sea por el tiempo en que se demore en declararse como timeout o el orden en que estan, asi como tambien podemos colocarles valores para que se realizen funciones y simplificar codigo.
+
+-no me han salido los demas ejercicios, con errores en sintaxis nomas los tengo :c.
+
+
