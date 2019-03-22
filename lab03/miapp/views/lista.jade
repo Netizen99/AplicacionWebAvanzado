@@ -1,0 +1,40 @@
+extends layout
+
+block content
+  html
+  head
+    title Express
+    |         
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  |     
+  body
+    LISTAS DE PRODUCTOS
+    |         
+    p
+      | ELIJA SU PRODUCTO 
+    p
+      | Le presentamos a la mejor tienda de comercio electronico!!! 
+    |         
+    p
+      | LAPTOPS!!
+      button(onclick='myFunction()') Comprame!
+  p#demo
+    script.
+      var a = 0;
+      function myFunction() {
+      a = a + 1;
+      document.getElementById("demo").innerHTML = a;
+      }       
+    p
+      | MONITORES!!
+      button(onclick='myFunctions()') Comprame!
+  p#dem
+    script.
+      var b = 0;
+      function myFunctions() {
+      b = b + 1;
+      document.getElementById("dem").innerHTML = b;
+      }
+      
+
+    
