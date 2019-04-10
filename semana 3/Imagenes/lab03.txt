@@ -1,0 +1,21 @@
+lab 03
+
+---Imagen 1.1 en el paso 2.11 que es "VISTA DEL LOCALHOST:3000"
+
+Responder: 2.13
+
+---Los cambios que podemos ver es que se va a aumentar el metodo post, put y delete aparte del get que ya estaba.
+
+---Imagen 1.2 en el paso 2.19 que es "CARPETAS CREADAS CON ARCHIVOS RESPECTIVOS"
+---Imagen 1.3 en el paso 2.21 que es "VISTA DEL GATO ENVEZ DE CSS"
+---Imagen 1.4 en el paso 2.24 que es "RESULTADO DEL PREFIJO"
+---Imagen 1.5 en el paso 2.26 que es "CODIGO DE ERRORES"
+
+CONCLUSIONES
+
+-Vamos a crear por Express el laboratorio asi como con los comandos le indicaremos los tipos de herramientas que se le agregaran.
+-Tenemos 4 tipos de metodos los cuales son el get, post, put y delete.
+-Para poder llamar a las clases js independientemente vamos a colocar node index.js en el cmd para que pueda reconocerlo con el puerto que en este caso sera el 3000.
+-Podemos colocar varios directorios ya que en Express no hay limite al respecto de esto.
+-Vamos a colocar 2 funciones que van a entrar cuando se presente 2 tipos de error como el 404 y 500, los cuales son los mas comunes.
+
