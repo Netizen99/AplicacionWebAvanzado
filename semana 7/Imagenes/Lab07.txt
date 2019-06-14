@@ -1,0 +1,14 @@
+Lab 07
+
+--- Imagen 1.1 ubicada en el paso 1.9 que es "PRIMER RESULTADO DE LA VISTA, SE VISUALIZA EL HEADER SUPERIOR".
+--- Imagen 1.2 ubicada en el paso 2.4 que es "VISTA MEJORADA, VEMOS EL SLIDE 2".
+--- Imagen 1.3 ubicada en el paso 2.4 que es "COMPROBACION DE QUE CAMBIE DE SLIDE A SLIDE 3".
+--- Imagen 1.4 ubicada en el paso 4.5 que es "VISTA FINAL, RESULTADO".
+
+CONCLUSIONES
+
+-En este laboratorio vamos a ver primero la vista de un header superior, asi como la vista de slides y como va a cambiar de imagenes con un determinado tiempo y su texto que se le añade a cada uno.
+-Debemos recordar un punto importante, el cual es llegar a tener una correcta forma de llamar a las demas clases js que se van a importar, para esto podemos descargar RelativePack.
+-En el laboratorio en la clase App.js vamos a ver en la parte donde tenemos dos nuevas vistas, tenemos a welcome la cual es tiene un path donde es apuntada pero vemos la siguiente y esta no posee un path, esto significa que cualquier ruta que no entre en los criterios anteriores, va a tomar por defecto la vista NotFound que es la que esta encasillada entre las llaves.
+-Vamos a ver que localStorage va a almacenar localmente los valores de tipo clave-valor del navegador, este lo vamos a llamar desde el const userName en la vista Welcome.js.
+-Vamos a en login,js vamos a definir que un usuario sea valido y lo guarde en el localstorage; mientras que en el App.js vamos a ver que por la ruta logout vamos a hacer que se cierra su sesion abierta y guardada.
