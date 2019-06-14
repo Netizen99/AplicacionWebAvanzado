@@ -1,0 +1,13 @@
+Lab 08
+
+--- Imagen 1.1 del punto 3.3 que es: "MUESTRA EL RESULTADO DEL CHAT"
+--- Imagen 1.2 del punto 1.3 que es: "VISTA ANTERIOR DEL CHAT"
+--- Imagen 1.2 del punto 4.3 que es: "RESULTADO SOBRE AUTENTIFICACION DE ZEIT Y SU DESCARGA"
+
+CONCLUSIONES
+
+-Vamos a usar las librerias fortawesome, las cuales son una serie de dependencias con las cuales nos dejar utilizar en los iconosde Font awesome.
+-Vamos a agregar a Chat tanto en las invocaciones como para la llamada de sus clases.
+-Utilizamos gravatar, el cual es un servicio de avatares que nos proporcionara mediante linea, o sea nos va a dar imagenes de diferentes perfiles. La idea es que cuando le pasemos como argumento nuestro correo cifrado, en este caso md5, nos va a devolver un avatar de la cuenta.
+-Debemos tener en cuenta que luego de colocar las librerias en el package.json. debemos de mandar un npm install en la consola sino no va a reconocerlas ta que no las descargo e instalo.
+-Luego si nosotros colocamos dos terminales con el mismo usuario, no va a haber una comunicacion simultanea sino no va a aparecer el mensaje del otro, por ello la comunicacion debe ser entre dos usuarios los cuales se conecten como el ejemplo de Juan Perez.
