@@ -1,0 +1,17 @@
+LABORATORIO N°6
+
+---Imagen 1.1.png del punto 1.4 que es "COMPROBACION DEL CODIGO NPM START EN LA CONSOLA DE MANDOS".
+---Imagen 1.2.png del punto 2.5 que es "VISTA EN POSTMAN".
+---Imagen 1.3.png del punto 3.5 que es "RESULTADO EN POSTMAN, DEL GET".
+---Imagen 1.4.png del punto 6.8 que es "VISTA DE LA NUEVA PAGINA DE REACT".
+---Imagen 1.5.png del punto 6.9 que es "VISTA DE LA EDITACION EN HOME DE REACT".
+---Imagen 1.6.png del punto 7.4 que es "CODIGO FINAL".
+---Imagen 1.7.png del punto 7.4 que es "CODIGO FINAL PARTE DE ABAJO".
+
+CONCLUSIONES
+
+-Vamos a trabajar con dos archivos, el primero con las librerias con el argumento --save, en este primero archivos veremos el api.
+-En el archivo api vamos a trabajar con Postman y las respuestas de get, post, put y delete que nos va a mostrar el laboratorio, veremos como nos respondera cada una.
+-Vamos a trabajar bajo el puerto 5000 los dos archivos.
+-Al crear el segundo archivo, el cual va a ser el laboratorio 6, vamos a manejar diferentes vistas como va a ser home, details y login.
+-Vamos a poder instalar si deseamos a axios, con el cual vamos a poder comunicarnos con el backend.
