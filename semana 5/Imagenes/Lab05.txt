@@ -1,0 +1,18 @@
+LABORATORIO N°5	
+
+---Imagen 1.1.png de la parte 1.7 que es "RESULTADO DEL CUADRO".
+---Imagen 1.2.png de la parte "RESULTADO SI NO INTRODUCIMOS VALORES".
+---Imagen 1.3.png de la parte 2.5 que es "RESULTADO DE USUARIO CONECTADO".
+---Imagen 1.4.png de la parte 2.7 que es "RESULTADO CONTENIDO EN CMD.
+---Imagen 1.5.png de la parte 2.13 que es "RESULTADO EN CMD".
+---Imagen 1.6.png de la parte 4.6 que es "RESULTADO DE CAMBIO EN LOS NAVEGADORES".
+---Imagen 1.7.png de la parte 5.5 que es "PRIMERA VISTA DE LOS NAVEGADORES ACTUALIZADOS".
+---Imagen 1.8.png de la parte 5.5 que es "SEGUNDA VISTA DE LOS NAVEGADORES CUANDO SE ELIMINA UN ELEMENTO Y SE ACTUALIZA".
+
+CONCLUSIONES
+
+-Vamos a ver en este laboratorio que podemos introducir valores y que estos se muetren en distintos navegadores, asi como la eliminacion de estos; por medio de funciones de acciones basicas y una buena interfaz la cual tambien se va a ir actualizando.
+-Trabajaremos mediante el puerto 3000, para este vamos a necesitar que mongo este corriendo como en el laboratorio N°4; asi mismo le indicaremos esto en el archivo server.js por medio de la variable puerto.
+-Tendremos el CRUD creado en views con el nombre de la carpeta main.jade, el cual vamos a tener la guia para poder tener en donde trabajar tanto las funciones ya que necesitan del input de donde van a sacar los datos asi como tambien para ver que tenemos en la tabla.
+-Vamos a usar socket.io que nos rediriccionar la captura del envio del formuario. Teniendo en cuenta que tenemos al evento submit del formulario ya creado, este nos va a ayudar a realizar dicha accion.
+-Vamos a darnos cuenta que el orden para eliminar un elemento agregado desde el navegador va a ser mediante primero hacerle click al boton eliminar, el cual va a eliminar el archivo pero debemos actualizarlo para que se cumple, entonces luego vamos al boton actualizar y le hacemos click; teniendo en cuenta que nos va a aparecer un mensaje diciendo si en verdad deseamos eliminarlo. Por ultimo veremos que en los dos navegadores se actualiza al mismo tiempo.
