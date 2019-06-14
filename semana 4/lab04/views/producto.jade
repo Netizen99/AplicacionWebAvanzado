@@ -1,0 +1,18 @@
+extends layout
+
+block content
+.main container
+    .row
+        .col-md-6.col-md-offset-3
+            h1.display-4.m-b-2 Crear Producto
+            form(method='POST' action='/producto')
+                div.form-group
+                    label(for='nombre') Nombre:
+                    input#nombre.form-control(type='text' name='nombre')
+                .form-group
+                    label(for='descripcion') Descripcion:
+                    input#descripcion.form-control(type='text' name='descripcion')
+                .form-group
+                    label(for='precio') Precio:
+                    input#precio.form-control(type='text' name='precio')
+                button.btn.btn-primary(type='submit') Grabar

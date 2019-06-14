@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  body
+    block content
+            .container
+                table.table
+                    thead
+                        tr
+                            th ID
+                            th Nombre
+                            th Descripcion
+                            th Precio
+                    tbody
+                        for item in data
+                            tr
+                                td= item._id
+                                td= item.nombre
+                                td= item.descripcion
+                                td= item.precio
+                    
+

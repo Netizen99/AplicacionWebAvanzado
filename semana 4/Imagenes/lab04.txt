@@ -1,0 +1,29 @@
+Lab04
+
+---Imagen 1.1.png del paso 2.3 que es "RESULTADO FINAL DEL CODIGO EN CMD"
+---Imagen 1.2.png del paso 2.5 que es "VALIDACION DE CONEXION A LA BASE DE DATOS TEST"
+---Imagen 1.3.png del paso 2.5 que es "RESULTADO DE LA PRUEBA"
+
+Respuesta: 3.5
+
+---Las operaciones van a ser las de show, create, update y delete, indicando en la primera que va a mostrar el producto, en la segunda va a crear un producto, en la tercera lo va a subir y el ultimo lo va a eliminar.
+
+---Imagen 1.4.png del paso 3.8 que es "VISTA DE POSTMAN"
+---Imagen 1.5.png del paso 3.10 que es "VISTA DE POSTMAN EN GET"
+---Imagen 1.6.png del paso 3.10 que es "VISTA DE POSTMAN EN POST"
+---Imagen 1.7.png del paso 3.10 que es "VISTA DE POSTMAN EN PUT"
+---Imagen 1.8.png del paso 3.10 que es "VISTA DE POSTMAN EN PATCH"
+---Imagen 1.9.png del paso 3.10 que es "VISTA DE POSTMAN EN DELETE"
+---Imagen 1.10.png del paso 3.18 que es "VISTA DE LOGIN"
+---Imagen 1.11.png del paso 3.18 que es "VISTA DE TABLE"
+
+
+CONCLUSIONES
+
+-Vamos a utilizar mongoDB asi que vamos a instalarlo y probar su funcionalidad con una llamada hacia la base test, para lo cual debemos abrir 2 terminales, la primera vamos a correr el demonio dbpath en la carpeta que hemos creado; luego en la segunda terminal vamos a correr al mongo para que en este final podamos interactuar para el llamado de los datos de la base de datos Test. Teniendo en cuenta que para el laboratorio vamos a necesitar que estos 2 esten abiertos y corriendo.
+-Vamos a utilizar la carpeta lab10.js destro de nuestro proyecto ya que este sera nuestro archivo principal, aqui vamos a ubicar las vistas que apareceran y las abriremos mediante el jade que tambien lo podemos instalar por medio de la temminal.
+-En el archivo prod.js vamos a centrarnos en las funciones que van a aparecer en las vistas como viene a ser el show, create, update y delete; las cuales con show tendremos la muestra de los datos que se estaran almacenando en la base de datos( introducimos los datos por medio de Postman ), en create vamos a tener la funcion que va a crear los datos ( los introducimos en postman por medio del metodo post ), el metodo update con el cual vamos a actulizar los datos que tengamos ya en la base de datos ( lo podemos utilizar en el postman ) y el delete que tambien vamos a utilizarlo por medio de postman, el cual se va a encargar de eliminar datos de la base de datos.
+-Vamos a ver que las interacciones con las vistas como ya sea login o tables, vamos a hacerlas mediante el archivo principal y los render que le pongamos; ya que al final solo debemos llamar a productos.
+-Vamos a crear CRUDs encargados de la vista de como va a ser lo que se vera en pantalla, como por ejemplo tenemos la de login que es diferente a la de table ya que una muestra como puede recibir datos y la otra solo los muestra.
+
+
