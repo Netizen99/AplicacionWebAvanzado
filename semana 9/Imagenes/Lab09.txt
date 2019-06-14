@@ -1,0 +1,13 @@
+Lab09
+
+--- Imagen 1.1 en la parte 1.2 que es "INSTALACION DE LA NUEVA LIBRERIA EN DAWA_API".
+--- Imagen 1.2 en la parte 2.4 que es "VISTA DEL PERFIL DEL USUARIO".
+--- Imagen 1.3 en la parte 2.7 que es "VISTA CON TEXTO EN EL TAB2 DEL PEFIL DE USUARIO".
+
+CONCLUSIONES
+
+-Vamos a usar la libreria morgan en el archivo dawa_api que hemos creado en la semana 4, este es un middleware de registros que permite ver que IP, metodo y tiempo va a emplear una consulta que se realize.
+-En nuestro lab9 vamos a agregar los archivos profile, los cuales se van a encargar de manejar el perfil del usuario que se esta manejando, asi como vamos a primero importarlo en nuestro App.js y luego indicarle su ruta mediante el cual sea llamado.
+-Vamos a ver que creamos profilejs, el cual va a manejar dos rutas; las cuales van a ser detalles y la editacion del perfil. La primera se va a encargar de los detalles de interfaz y funcionamiento del perfil, mientras que el segundo se va a encargar de la editacion de este perfil el cual se esta logeando uno.
+-Recordar que debemos acceder a nuestra URL mediante el Header que se creo antes, y en este pondremos los espacios que tendra el profile como " Mi perfil " y " Chat ".
+-Vamos a invocar a axios para que enviemos la data al servidor por medio de nuestra API.
