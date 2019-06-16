@@ -1,0 +1,12 @@
+Lab10
+
+--- Imagen 1.1 del punto 1.3 que es "INSTALACION DE REDUX DEVTOOLS".
+--- Imagen 1.1 del punto 1.3 que es "VISTA DESPUES DEL LOGEO".
+
+CONCLUSIONES
+
+-En este laboratorio vamos a instalar la libreria de redux-thunk, tambien vamos a instalar en nuestro navegador web el Redux DevTools.
+-Debemos tener en cuenta que el componente Provider es quien va a manejar el estado principal, entonces debebmos renderizarlo antes que nuestra app en cuaquier caso, ya sea web o como en React Native.
+-En el archivo actionTypes, vamos a tenerlo para que contenga el listado de acciones que prodran modificar el estado.
+-Con las funciones connect vamos a conectar tantos los estados como dispatchersh a los componentes.
+-vamos a ver los datos que se proporcionaran por las rutas que son configuradas en App.js con restricciones y dependiendo si esta el usuario logeado o no va a comenzar la configuracion propuesta.
